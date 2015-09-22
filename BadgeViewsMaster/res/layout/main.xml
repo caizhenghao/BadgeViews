@@ -10,5 +10,27 @@
             android:layout_height="wrap_content"
             android:text="Hello World, MyActivity"
             />
+
+    <com.guangdong.caizhenghao.BadgeViewsMaster.widget.BadgeTextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="textview1"
+            />
+
+<com.guangdong.caizhenghao.BadgeViewsMaster.widget.BadgeLinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/holo_blue_bright"/>
+
+
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="修改数目"/>
 </LinearLayout>
 
